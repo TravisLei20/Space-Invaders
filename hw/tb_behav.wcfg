@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="293"></NameColumnWidth>
+      <ValueColumnWidth column_width="127"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="logic" fp_name="/tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/irq">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/data">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/read_data">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider10" type="divider">
+      <obj_property name="label">AW</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_awready">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">W</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider18" type="divider">
+      <obj_property name="label">B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_bvalid">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider21" type="divider">
+      <obj_property name="label">AR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_arvalid">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_arready">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_araddr">
+      <obj_property name="ElementShortName">s_axi_araddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider35" type="divider">
+      <obj_property name="label">R</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_rready">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_rvalid">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/s_axi_rdata">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/next_state">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/current_state">
+      <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/read_next_state">
+      <obj_property name="ElementShortName">read_next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/read_current_state">
+      <obj_property name="ElementShortName">read_current_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_current_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/ctrl_reg">
+      <obj_property name="ElementShortName">ctrl_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/delay_reg">
+      <obj_property name="ElementShortName">delay_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/counter">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/int_en">
+      <obj_property name="ElementShortName">int_en</obj_property>
+      <obj_property name="ObjectShortName">int_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/counter_en">
+      <obj_property name="ElementShortName">counter_en</obj_property>
+      <obj_property name="ObjectShortName">counter_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider65" type="divider">
+      <obj_property name="label">Internal Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/addr">
+      <obj_property name="ElementShortName">addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/design_1_i/pit_0/inst/pit_sv_inst/read_addr">
+      <obj_property name="ElementShortName">read_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[3:0]</obj_property>
+   </wvobject>
+</wave_config>

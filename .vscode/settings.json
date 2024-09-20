@@ -1,0 +1,13 @@
+{
+    "[c]": {
+        "editor.formatOnSave": true,
+    },
+    "[cpp]": {
+        "editor.formatOnSave": true,
+    },
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "files.associations": {
+        "cstdlib": "cpp",
+        "buttons.h": "c"
+    }
+}

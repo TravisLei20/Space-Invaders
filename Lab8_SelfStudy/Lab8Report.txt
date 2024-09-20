@@ -1,0 +1,35 @@
+Topic: AI and Embedded Systems
+
+How it relates to the class (1 sentence): It could be possilbe that AI enhanced embedded systems 
+could make real-time decisions instead of consulting a centralized server.
+
+Resources used (list of websites, videos, etc):
+    - ChatGPT
+    - Youtube
+        * https://www.youtube.com/watch?v=j4UlwtvejqE&ab_channel=TexasInstruments
+    - Google
+        * https://www.byte-lab.com/embedded-ai-demystified-a-deep-dive-into-applications-and-benefits/#:~:text=Embedded%20AI%20is%20the%20application,and%20autonomously%20respond%20to%20changes.
+        * https://ce.uci.edu/programs/engineering/developing-embedded-ai-systems
+        * https://www.linkedin.com/pulse/impact-ai-machine-learning-embedded-software-ninos-it-solution/
+        * https://ce.uci.edu/programs/engineering/developing-embedded-ai-systems#:~:text=Examine%20the%20tradeoffs%20needed%20to,create%20an%20embedded%20AI%20device.
+        * https://www.linkedin.com/pulse/artificial-intelligence-embedded-systems-nova-auto-technologies/
+        * https://www.windriver.com/solutions/learning/ai-and-ml#:~:text=AI%20supports%20systems%20that%20can,decisions%20based%20on%20that%20training.
+        * https://medium.com/@tabish_14839/what-exactly-is-embedded-ai-2de79d3ffbcb#:~:text=Specific%20Use%20Cases%3AEmbedded%20AI,and%20autonomous%20driving%20in%20vehicles.
+
+Summary of what you learned (200-250 words):
+    Thought I’d jump on the AI bandwagon and learn more about AI and its effect on embedded systems. 
+I learned that “Embedded AI” systems is not something new but just something that is getting better 
+with the advancement of AI in the past year or so. In the past embedded systems simply used algorithms 
+to perform specific tasks. However, with newer AI and ML advancements those systems would now be able 
+to learn and improve over time. 
+
+    The goal of an embedded AI system is to use analyzed data, gathered from the device’s sensors, to 
+make decisions in real-time. This would not only allow the device to improve on its own but it would 
+also reduce human errors that were initially introduced in these systems. The embedded AI application 
+would run on a microcontroller in the device and not in the cloud. 
+
+    There are a few problems/issues with AI being integrated into embedded systems. A few of these 
+being data privacy and security risks, reliability and safety concerns, along with legal and ethical 
+issues. Recently, self-driving cars with embedded AI in them have been the topic of discussion. What 
+would happen if the AI/car makes a mistake and someone is hurt? Who is at fault if an accident occurs? 
+These questions aren’t unique to the self-driving cars topic.
